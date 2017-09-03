@@ -12,8 +12,8 @@ app.get('/article-one', function (req, res) {
     res.send("article one coming soon");
 });
 
-    app.get('/article two', function (req, res) {
-    res.send("article two coming soon");
+    app.get('/article-two', function (req, res) {
+    res.send('article two coming soon');
 });
 
 app.get('/ui/style.css', function (req, res) {
